@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+  />
+  <title>Block Breeze</title>
+  <meta name="theme-color" content="#3b4bd1" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #2a3b8f; /* soothing blue */
+      height: 100%;
+      overflow: hidden;
+      touch-action: none; /* let Phaser handle gestures */
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    #game {
+      width: 100vw;
+      height: 100dvh;
+    }
+  </style>
+</head>
+<body>
+  <div id="game"></div>
+
+  <!-- Phaser 3 from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+  <script src="./game.js"></script>
+</body>
+</html>
